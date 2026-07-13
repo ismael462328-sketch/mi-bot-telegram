@@ -105,8 +105,7 @@ def main():
     app.add_handler(CommandHandler("start", start))
     app.add_handler(CommandHandler("dados", juego_dados))
     app.add_handler(CallbackQueryHandler(procesar_botones))
-    print("🚀 BOT CONFIGURADO CON MULTI-DIVISAS Y EFECTIVO...")
-    app.asyncio.run(close_loop=False)
-
+    print("🚀 BOT CONFIGURADO
+app.run_polling()
 if __name__ == '__main__':
     main()
