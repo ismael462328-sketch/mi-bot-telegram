@@ -108,5 +108,5 @@ def main():
     print("🚀 BOT CONFIGURADO CON MULTI-DIVISAS Y EFECTIVO...")
     app.asyncio.run(close_loop=False)
 
-if ___name___ == '___main___':
+if __name__ == '__main__':
     main()
